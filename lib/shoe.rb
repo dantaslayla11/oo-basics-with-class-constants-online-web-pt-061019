@@ -12,5 +12,8 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-
+@brand = brand
+    if !BRANDS.includes?(brand)
+      BRANDS << brand
+    end
 end
