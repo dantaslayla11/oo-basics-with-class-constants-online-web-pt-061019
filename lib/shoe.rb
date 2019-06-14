@@ -20,6 +20,11 @@ class Shoe
   # end
 
   # BRANDS.uniq
+  
+  @brand = brand
+    if !BRANDS.includes?(brand)
+      BRANDS << brand
+    end
 end
 
 
