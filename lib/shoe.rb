@@ -3,7 +3,9 @@ class Shoe
   attr_reader :brand
 
   BRANDS = []
-
+ def brand 
+   @brand 
+ end 
   
   @brand = brand
     if !BRANDS.include?(brand)
